@@ -1,0 +1,39 @@
+{
+  "timestamp_utc": "2026-10-02T21:40:17+00:00",
+  "args": {
+    "n": 100000,
+    "seed": 2026,
+    "out": "results",
+    "alphas": [
+      0.5,
+      2.0,
+      5.0
+    ],
+    "lambda_g": 0.5,
+    "lambda_h": 1.0,
+    "sweep_lambda_g": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "sweep_lambda_h": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "tol": 0.02
+  },
+  "priors": [
+    "alpha_1",
+    "alpha_0.5",
+    "alpha_2",
+    "alpha_5"
+  ],
+  "n_per_prior": 100000,
+  "convergence_ok": true,
+  "python": "3.12.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6"
+}
