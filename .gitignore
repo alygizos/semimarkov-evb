@@ -1,0 +1,11 @@
+# generated, large, and exactly regenerable from the seed (python run_ensemble.py)
+results/ensemble_*.csv.gz
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+# never publish the unpublished manuscript files
+*.docx
