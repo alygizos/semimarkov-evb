@@ -1,7 +1,6 @@
 # Ensemble semi-Markov framework
 
-Implements the Methods section of *Beyond a Single Electric Vehicle Battery
-Life: A Semi-Markov Framework for Stochastic Circular Pathways* (Sec. 2.2–2.7):
+Implements the Methods section of *Beyond a Single Life: A Semi-Markov Framework for Stochastic Circular Pathways of Electric Vehicle Batteries* (Sec. 2.2–2.7):
 an absorbing semi-Markov chain over the EV-battery lifecycle
 `{M, U1, U2, RM, RC, RO, L}`, evaluated across a large Dirichlet-sampled
 ensemble of feasible transition matrices rather than one assumed point estimate.
@@ -111,7 +110,7 @@ The small summary tables (`summary_by_prior.csv`, `drivers_alpha_1.csv`, `srrc_r
 ## Citation
 
 Lygizos, A., Keroglou, I., Srinivasan, L., Nath, C., Sutherland, J.W., Zhao, F. (in preparation).
-*Beyond a Single Electric Vehicle Battery Life: A Semi-Markov Framework for Stochastic Circular Pathways.*
+*Beyond a Single Life: A Semi-Markov Framework for Stochastic Circular Pathways of Electric Vehicle Batteries*
 
 ## License
 
